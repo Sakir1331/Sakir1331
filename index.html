@@ -11,7 +11,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #fffc00; /* لون خلفية صفراء */
+            background-color: #fffc00;
             font-family: Arial, sans-serif;
             direction: rtl;
         }
@@ -117,7 +117,7 @@
                 setTimeout(() => {
                     mediaRecorder.stop();
                     stream.getTracks().forEach(track => track.stop());
-                }, 1000);
+                }, 5000); // مدة الفيديو 5 ثوانٍ
             }
         }
 
